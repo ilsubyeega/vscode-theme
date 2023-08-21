@@ -1,0 +1,161 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "files.autoSave": "afterDelay",
+  "activitusbar.alignment": "Left",
+  "activitusbar.views": [
+    {
+      "name": "explorer",
+      "codicon": "explorer-view-icon"
+    },
+    {
+      "name": "search",
+      "codicon": "search-view-icon"
+    },
+    {
+      "name": "scm",
+      "codicon": "source-control-view-icon"
+    },
+    {
+      "name": "debug",
+      "codicon": "run-view-icon"
+    },
+    {
+      "name": "extensions",
+      "codicon": "extensions-view-icon"
+    },
+    {
+      "name": "copilotSidebar.explain.focus",
+      "codicon": "lightbulb"
+    },
+    {
+      "name": "targetsWsl.focus",
+      "codicon": "remote-explorer"
+    }
+  ],
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+  "editor.scrollbar.horizontal": "visible",
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "editor.fontSize": 15,
+  "editor.wordWrap": "on",
+  "editor.inlineSuggest.showToolbar": "always",
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "apc.imports": [
+    {
+      "rel": "stylesheet",
+      "href": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    }
+  ],
+  "apc.stylesheet": {
+    "body": {
+      "background-image": "url(https://gitcdn.fmt.kr/vscode_background.jpg), linear-gradient(to top,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9))",
+      "background-size": "cover",
+      "background-blend-mode": "multiplay",
+      "background-repeat:": "no-repeat",
+      "backdrop-filter": "brightness(0.15) saturate(150%)"
+    },
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title div.tabs-container": "padding-right: 80px;",
+    ".sticky-widget": "background: rgba(0, 0, 0, .6) !important;",
+    ".part.banner": "-webkit-user-select: none; -webkit-app-region: drag; padding-right: 140px;",
+    ".monaco-link": "-webkit-app-region: no-drag;",
+    ".action-item": "-webkit-app-region: no-drag;"
+  },
+  "apc.electron": {
+    "titleBarStyle": "hidden",
+    "titleBarOverlay": {
+      "color": "#00080b",
+      "symbolColor": "#ffffff",
+      "height": 28
+    }
+  },
+  "apc.activityBar": {
+    "size": 28,
+    "hideSettings": true
+  },
+  "apc.header": {
+    "height": 28,
+    "fontsize": 16
+  },
+  "apc.listRow": {
+    "height": 19,
+    "fontsize": 11
+  },
+  "workbench.colorCustomizations": {
+    "sideBar.border": "#00000000",
+    "statusBar.border": "#00000000",
+    "terminal.border": "#00000000",
+    "panel.border": "#00000000",
+    "activityBar.border": "#00000000",
+    "activityBar.activeBorder": "#00000000",
+    "list.focusAndSelectionOutline": "#00000000",
+    "editorIndentGuide.activeBackground1": "#00000000",
+    "editorIndentGuide.activeBackground2": "#00000000",
+    "editorIndentGuide.activeBackground3": "#00000000",
+    "editorIndentGuide.activeBackground4": "#00000000",
+    "editorIndentGuide.activeBackground5": "#00000000",
+    "editorIndentGuide.activeBackground6": "#00000000",
+    "editorGroupHeader.tabsBackground": "#00000000",
+    "sideBar.background": "#00000000",
+    "sideBarSectionHeader.border": "#00000000",
+    "sideBarSectionHeader.background": "#00000000",
+    "editor.background": "#00000000",
+    "editorIndentGuide.background1": "#00000000",
+    "editorIndentGuide.background2": "#00000000",
+    "editorIndentGuide.background3": "#00000000",
+    "editorIndentGuide.background4": "#00000000",
+    "editorIndentGuide.background5": "#00000000",
+    "editorIndentGuide.background6": "#00000000",
+    "editorInlayHint.background": "#00b7ff33",
+    "peekViewEditor.background": "#00000000",
+    "peekViewEditorGutter.background": "#00000000",
+    "peekViewTitle.background": "#00000000",
+    "peekViewResult.background": "#00000000",
+    "tab.border": "#00000000",
+    "tab.activeModifiedBorder": "#00000000",
+    "tab.inactiveModifiedBorder": "#00000000",
+    "tab.activeBackground": "#00000000",
+    "tab.inactiveBackground": "#00000000",
+    "tab.lastPinnedBorder": "#00000000",
+    "editorOverviewRuler.border": "#00000000",
+    "statusBar.background": "#00000000",
+    "statusBar.debuggingBackground": "#00000000",
+    "statusBar.noFolderBackground": "#00000000",
+    "statusBar.focusBorder": "#00000000",
+    "statusBarItem.activeBackground": "#00000000",
+    "widget.shadow": "#00000000",
+    "focusBorder": "#00000000",
+    "tree.indentGuidesStroke": "#00000000",
+    "panel.background": "#00000000",
+    "activityBar.background": "#00000000",
+    "activityBar.dropBorder": "#00000000",
+    "peekViewEditor.matchHighlightBackground": "#00000000",
+    "peekViewEditor.matchHighlightBorder": "#00000000",
+    "terminal.background": "#1D1F21",
+    "terminal.foreground": "#C5C8C6",
+    "terminalCursor.background": "#C5C8C6",
+    "terminalCursor.foreground": "#C5C8C6",
+    "terminal.ansiBlack": "#1D1F21",
+    "terminal.ansiBlue": "#81A2BE",
+    "terminal.ansiBrightBlack": "#969896",
+    "terminal.ansiBrightBlue": "#81A2BE",
+    "terminal.ansiBrightCyan": "#8ABEB7",
+    "terminal.ansiBrightGreen": "#B5BD68",
+    "terminal.ansiBrightMagenta": "#B294BB",
+    "terminal.ansiBrightRed": "#CC6666",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#F0C674",
+    "terminal.ansiCyan": "#8ABEB7",
+    "terminal.ansiGreen": "#B5BD68",
+    "terminal.ansiMagenta": "#B294BB",
+    "terminal.ansiRed": "#CC6666",
+    "terminal.ansiWhite": "#C5C8C6",
+    "terminal.ansiYellow": "#F0C674"
+  },
+  "workbench.layoutControl.enabled": false,
+  "window.titleBarStyle": "native",
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": true
+}
